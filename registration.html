@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-content-center min-vh-100">
+        <div class="row border rounded-5 p-3 bg-white shadow box-area">
+            <div class="col-md-4 rounded-4 d-flex justify-content-center align-content-center flex-column left-box" style="background-color: #103cbe;">
+                <div class="featured-image mb-3">
+                    <img src="images/1.png" alt="" class="img-fluid" style="width: 250px;">
+                </div>
+                <h1 class="text-white fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;">Welcome</h1>
+                <p class="text-white text-wrap text-center" style="font-family: 'Courier New', Courier, monospace;">We're glad to see you again</p>
+            </div>
+
+            <div class="col-md-8 right-box">
+                <div class="row align-items-center">
+                    <div class="header-text mb-4">
+                        <h2>Register Now</h2>
+                    </div>
+                    <form class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control" id="inputBirthday" placeholder="Date of Birth">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="inputBirthday" placeholder="Confirm Password">
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="termsCheckbox" required>
+                            <label class="form-check-label" for="termsCheckbox">
+                              I agree to the <a href="/terms-and-conditions" target="_blank">terms and conditions</a>
+                            </label>
+                        </div>
+                    </form>
+                    
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-info w-100 fs-6">Signup</button>
+                    </div>
+                    
+                    <div class="text-center my-2">
+                        <span style="font-size: 16px; color: gray;">Or</span>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-secondary w-100 fs-6"><img src="images/google.png" alt="" style="width:20px" class="me-2">Sign in with Google</button>
+                    </div>
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-primary w-100 fs-6"><img src="images/facebook.png" alt="" style="width:40px" class="me-2">Sign in with Facebook</button>
+                    </div>
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-dark w-100 fs-6"><img src="images/twitter.png" alt="" style="width:20px" class="me-2">Sign in with Twitter</button>
+                    </div>
+                    <div class="row mt-5">
+                        <p class="text-center my-2">Already have an account? <a href="login.html">Login</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
